@@ -1,4 +1,6 @@
-# baraka is a different and lightweight approach to app and component styling
+**\[WORK IN PROGRESS]**
+# Baraka
+A different and lightweight approach to app and component styling
 
 ## Overview
 
@@ -10,8 +12,8 @@
 
 # TODO
 
-- commit some shit
-- release some shit
+- commit things
+- release things
 
 # Team
 
