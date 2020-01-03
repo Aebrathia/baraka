@@ -6,7 +6,7 @@ import './Card.css'
 const Card = ({ as = 'article', className, children, ...rest }) => {
   const As = as
   return (
-    <As className={cx('Card', className)}>{children}</As>
+    <As className={cx('Card', className)} {...rest}>{children}</As>
   )
 }
 
