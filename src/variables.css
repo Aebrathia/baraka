@@ -11,6 +11,7 @@
   --gray-900: #212529;
 
   /* Palette */
+  /* TODO: Add lighter, lightest, darker, darkest variants */
   --primary:   #007bff;
   --secondary: var(--gray-600);
   --success:   #28a745;
@@ -18,7 +19,9 @@
   --warning:   #ffc107;
   --danger:    #dc3545;
   --light:     var(--gray-100);
+  --lighten:   rgba(255, 255, 255, .15);
   --dark:      var(--gray-800);
+  --darken:   rgba(0, 0, 0, .15);
 
   --background-color: #fff;
 
@@ -36,4 +39,7 @@
   --font-size: 1rem;
   --line-height: 1.5;
   --font-family: system-ui;
+
+  /* Misc */
+  --box-shadow: 0 .5rem 1rem var(--darken); /* TODO: Add variants and dynamic size */
 }

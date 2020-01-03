@@ -1,0 +1,4 @@
+.Card {
+    background-color: var(--background-color);
+    box-shadow: var(--box-shadow);
+}
