@@ -21,12 +21,13 @@
   --light:     var(--gray-100);
   --lighten:   rgba(255, 255, 255, .15);
   --dark:      var(--gray-800);
-  --darken:   rgba(0, 0, 0, .15);
+  --darken:    rgba(0, 0, 0, .15);
+
+  --color:              var(--gray-900);
+  --color-on-primary:   #fff;
+  --color-on-secondary: #fff;
 
   --background-color: #fff;
-
-  --color:            var(--gray-900);
-  --color-on-primary: #fff;
 
   /* Spacing */
   --spacing-xs: .25rem;
@@ -39,6 +40,7 @@
   --font-size: 1rem;
   --line-height: 1.5;
   --font-family: system-ui;
+  --link-color: var(--primary);
 
   /* Misc */
   --box-shadow: 0 .5rem 1rem var(--darken); /* TODO: Add variants and dynamic size */

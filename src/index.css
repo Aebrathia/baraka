@@ -1,14 +1,5 @@
 @import-normalize;
 @import './variables.css';
-
-*,
-*::before,
-*::after {
-  box-sizing: border-box;
-}
-
-body {
-  margin: 0;
-  font: var(--font-size)/var(--line-height) var(--font-family);
-  background-color: var(--background-color);
-}
+@import './medias.css';
+@import './global.css';
+@import './typography.css';

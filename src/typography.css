@@ -1,0 +1,10 @@
+body {
+  margin: 0;
+  font: var(--font-size)/var(--line-height) var(--font-family);
+  background-color: var(--background-color);
+  color: var(--color);
+}
+
+a {
+  color: var(--link-color);
+}

@@ -1,8 +1,8 @@
 .Button {
   --Button-padding-x: var(--spacing);
   --Button-padding-y: var(--spacing-sm);
-  --Button-background-color: var(--primary);
-  --Button-color: var(--color-on-primary);
+  --Button-background-color: #fff;
+  --Button-color: var(--color);
 
   display: inline-block;
   padding: var(--Button-padding-y) var(--Button-padding-x);
@@ -11,10 +11,21 @@
   vertical-align: middle;
   text-align: center;
   user-select: none;
+  text-decoration: none;
 
   /* Normalize button styles */
   border: 0;
   font-family: inherit;
   font-size: inherit;
   line-height: inherit;
+}
+
+.Button--primary {
+  --Button-background-color: var(--primary);
+  --Button-color: var(--color-on-primary);
+}
+
+.Button--secondary {
+  --Button-background-color: var(--secondary);
+  --Button-color: var(--color-on-secondary);
 }

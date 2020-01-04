@@ -1,0 +1,69 @@
+/* TODO: With or without padding on nav ? */
+.Nav {
+  --NavLink-font-size: var(--font-size);
+  --NavLink-line-height: var(--line-height);
+  --NavLink-padding: var(--spacing-sm);
+
+  --Nav-padding: var(--spacing-sm);
+  --Nav-content-height: 2.5rem;
+  --Nav-height: calc(var(--Nav-padding) * 2 + var(--Nav-content-height));
+  --Nav-background-color: var(--background-color);
+
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  background-color: var(--Nav-background-color);
+}
+
+.Nav__logo {
+  height: var(--Nav-content-height);
+  margin: var(--Nav-padding);
+}
+
+/* TODO: Reuse .Button styles */
+.Nav__control {
+  background-color: transparent;
+  padding: var(--spacing-sm) var(--spacing);
+  margin-right: var(--Nav-padding);
+
+  /* Normalize button styles */
+  border: 0;
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+}
+
+.Nav__list {
+  display: none;
+  flex-direction: column;
+  flex: 1 0 100%;
+  padding: var(--spacing-sm);
+  margin: 0;
+  list-style: none;
+}
+
+.Nav__list--active {
+  display: flex;
+}
+
+.Nav__link {
+  /* TODO: Reuse .Button styles */
+  display: inline-block;
+  padding: var(--spacing-sm) var(--spacing);
+  text-decoration: none;
+}
+
+@media (--medium) {
+  .Nav__control {
+    display: none;
+  }
+
+  .Nav__list {
+    display: flex;
+    flex-direction: row;
+    flex: 0 0 auto;
+    padding: 0;
+  }
+}

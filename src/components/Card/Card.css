@@ -1,4 +1,8 @@
 .Card {
-    background-color: var(--background-color);
-    box-shadow: var(--box-shadow);
+    --Card-background-color: var(--background-color);
+    --Card-box-shadow: var(--box-shadow);
+
+    position: relative;
+    background-color: var(--Card-background-color);
+    box-shadow: var(--Card-box-shadow);
 }

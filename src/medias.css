@@ -1,0 +1,12 @@
+/* Small devices (landscape phones, 568px and up) */
+/* Previous values 576px / 36rem */
+@custom-media --small (width >= 35.5em);
+
+/* Medium devices (tablets, 768px and up) */
+@custom-media --medium (width >= 48em);
+
+/* Large devices (desktops, 992px and up) */
+@custom-media --large (width >= 62em);
+
+/* Extra large devices (large desktops, 1200px and up) */
+@custom-media --xlarge (width >= 75em);
